@@ -15789,6 +15789,52 @@
    border-color: #838383 !important;
  }
  
+ /*--- Silver ---*/
+ 
+ .ui.silver.labels .label,
+ .ui.silver.label {
+   background-color: rgba(255, 255, 255, 0.6) !important;
+   border-color: rgba(255, 255, 255, 0.6) !important;
+   color: #FFFFFF !important;
+ }
+ 
+ /* Link */
+ 
+ .ui.silver.labels .label:hover,
+ a.ui.silver.label:hover {
+   background-color: #838383 !important;
+   border-color: #838383 !important;
+   color: #FFFFFF !important;
+ }
+ 
+ /* Corner */
+ 
+ .ui.silver.corner.label,
+ .ui.silver.corner.label:hover {
+   background-color: transparent !important;
+ }
+ 
+ /* Ribbon */
+ 
+ .ui.silver.ribbon.label {
+   border-color: rgba(255, 255, 255, 0.35) !important;
+ }
+ 
+ /* Basic */
+ 
+ .ui.basic.silver.label {
+   background: none #FFFFFF !important;
+   color: rgba(255, 255, 255, 0.6) !important;
+   border-color: rgba(255, 255, 255, 0.6) !important;
+ }
+ 
+ .ui.basic.silver.labels a.label:hover,
+ a.ui.basic.silver.label:hover {
+   background-color: #FFFFFF !important;
+   color: #838383 !important;
+   border-color: #838383 !important;
+ }
+ 
  /*--- Black ---*/
  
  .ui.black.labels .label,
