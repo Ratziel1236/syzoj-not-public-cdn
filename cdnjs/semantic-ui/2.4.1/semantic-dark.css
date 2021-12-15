@@ -700,19 +700,19 @@
  textarea::-webkit-selection,
  input::-webkit-selection {
    background-color: #CCE2FF;
-   color: #FFF;
+   color: #000;
  }
  
  textarea::-moz-selection,
  input::-moz-selection {
    background-color: #CCE2FF;
-   color: #FFF;
+   color: #000;
  }
  
  textarea::selection,
  input::selection {
    background-color: #CCE2FF;
-   color: #FFF;
+   color: #000;
  }
  
  /* Force Simple Scrollbars */
