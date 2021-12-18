@@ -699,20 +699,20 @@
  
  textarea::-webkit-selection,
  input::-webkit-selection {
-   background-color: rgba(100, 100, 100, 0.4);
-   color: rgba(0, 0, 0, 0.87);
+   background-color: #CCE2FF;
+   color: #000;
  }
  
  textarea::-moz-selection,
  input::-moz-selection {
-   background-color: rgba(100, 100, 100, 0.4);
-   color: rgba(0, 0, 0, 0.87);
+   background-color: #CCE2FF;
+   color: #000;
  }
  
  textarea::selection,
  input::selection {
-   background-color: rgba(100, 100, 100, 0.4);
-   color: rgba(0, 0, 0, 0.87);
+   background-color: #CCE2FF;
+   color: #000;
  }
  
  /* Force Simple Scrollbars */
@@ -15164,8 +15164,8 @@
  
  a.ui.labels .label:hover,
  a.ui.label:hover {
-   background-color: #E0E0E0;
-   border-color: #E0E0E0;
+   background-color: #A0A0A0;
+   border-color: #A0A0A0;
    background-image: none;
    color: rgba(0, 0, 0, 0.8);
  }
@@ -15784,6 +15784,52 @@
  
  .ui.basic.grey.labels a.label:hover,
  a.ui.basic.grey.label:hover {
+   background-color: #FFFFFF !important;
+   color: #838383 !important;
+   border-color: #838383 !important;
+ }
+ 
+ /*--- Silver ---*/
+ 
+ .ui.silver.labels .label,
+ .ui.silver.label {
+   background-color: rgba(255, 255, 255, 0.6) !important;
+   border-color: rgba(255, 255, 255, 0.6) !important;
+   color: #FFFFFF !important;
+ }
+ 
+ /* Link */
+ 
+ .ui.silver.labels .label:hover,
+ a.ui.silver.label:hover {
+   background-color: #838383 !important;
+   border-color: #838383 !important;
+   color: #FFFFFF !important;
+ }
+ 
+ /* Corner */
+ 
+ .ui.silver.corner.label,
+ .ui.silver.corner.label:hover {
+   background-color: transparent !important;
+ }
+ 
+ /* Ribbon */
+ 
+ .ui.silver.ribbon.label {
+   border-color: rgba(255, 255, 255, 0.35) !important;
+ }
+ 
+ /* Basic */
+ 
+ .ui.basic.silver.label {
+   background: none #FFFFFF !important;
+   color: rgba(255, 255, 255, 0.6) !important;
+   border-color: rgba(255, 255, 255, 0.6) !important;
+ }
+ 
+ .ui.basic.silver.labels a.label:hover,
+ a.ui.basic.silver.label:hover {
    background-color: #FFFFFF !important;
    color: #838383 !important;
    border-color: #838383 !important;
@@ -29220,7 +29266,7 @@
  
  .ui.comments .comment .author {
    font-size: 1em;
-   color: rgba(0, 0, 0, 0.87);
+   color: rgba(255, 255, 255, 0.87);
    font-weight: bold;
  }
  
@@ -29239,7 +29285,7 @@
  .ui.comments .comment .metadata {
    display: inline-block;
    margin-left: 0.5em;
-   color: rgba(0, 0, 0, 0.4);
+   color: rgba(255, 255, 255, 0.4);
    font-size: 0.875em;
  }
  
@@ -29260,7 +29306,7 @@
    margin: 0.25em 0em 0.5em;
    font-size: 1em;
    word-wrap: break-word;
-   color: rgba(0, 0, 0, 0.87);
+   color: rgba(255, 255, 255, 0.87);
    line-height: 1.3;
  }
  
@@ -29276,7 +29322,7 @@
    cursor: pointer;
    display: inline-block;
    margin: 0em 0.75em 0em 0em;
-   color: rgba(0, 0, 0, 0.4);
+   color: rgba(255, 255, 255, 0.4);
  }
  
  .ui.comments .comment .actions a:last-child {
@@ -29285,7 +29331,7 @@
  
  .ui.comments .comment .actions a.active,
  .ui.comments .comment .actions a:hover {
-   color: rgba(0, 0, 0, 0.8);
+   color: rgba(255, 255, 255, 0.8);
  }
  
  /*--------------------
@@ -32265,7 +32311,7 @@
  }
  
  .ui.dropdown .menu > .message:not(.ui) {
-   color: rgba(0, 0, 0, 0.4);
+   color: rgba(255, 255, 255, 0.4);
  }
  
  /*--------------
