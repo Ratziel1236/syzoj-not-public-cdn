@@ -1,3 +1,6 @@
+.user-unrated {
+  color: #222222 !important;
+}
 .user-newbie {
   color: #999999 !important;
 }
@@ -5,7 +8,7 @@
   color: #00a900 !important;
 }
 .user-expert {
-  color: #44b0ff !important;
+  color: #66ccff !important;
 }
 .user-candidatemaster {
   color: #9933ee !important;
@@ -17,5 +20,9 @@
 }
 .user-grandmaster {
   color: #ff0000 !important;
+  font-weight: bold;
+}
+.user-admin {
+  color: #1f1e33 !important;
   font-weight: bold;
 }
